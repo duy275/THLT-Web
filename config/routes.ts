@@ -43,6 +43,11 @@ export default [
 		name: 'TodoList',
 		component: './TodoList',
 	},
+	{
+		path: '/course',
+		name: 'Course',
+		component: './Course',
+	},
 
 	// DANH MUC HE THONG
 	// {
