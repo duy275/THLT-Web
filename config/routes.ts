@@ -48,6 +48,33 @@ export default [
 		name: 'Course',
 		component: './Course',
 	},
+	{
+		path: '/travel',
+		name: 'Travel',
+		icon: 'CompassOutlined',
+		routes: [
+			{
+				path: '/travel/explore',
+				name: 'Explore',
+				component: './Travel/Explore',
+			},
+			{
+				path: '/travel/plan',
+				name: 'Plan',
+				component: './Travel/Plan',
+			},
+			{
+				path: '/travel/admin',
+				name: 'Admin',
+				component: './Travel/Admin',
+			},
+			{
+				path: '/travel/plans',
+				name: 'Plans',
+				component: './Travel/Plans',
+			},
+		],
+	},
 
 	// DANH MUC HE THONG
 	// {
